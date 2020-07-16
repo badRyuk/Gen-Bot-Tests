@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client(); 
+const token = 'NzMxNDIzMjI1NjQ0NTgwODc0.XxAbVg.gcrawSmOnpvtgHqP-m7zGZBzovU';
 bot.login(process.env.token); 
 usedCommandRecently4 = new Set();
 
