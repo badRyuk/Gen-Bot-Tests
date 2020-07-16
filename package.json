@@ -1,0 +1,14 @@
+{
+  "name": "disc",
+  "version": "1.0.0",
+  "description": "This is the same GenBot but it has copy pasted data from Glitch.com. Trying to host it on Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "badRyuk",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
