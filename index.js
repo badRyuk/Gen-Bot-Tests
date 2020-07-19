@@ -3,14 +3,13 @@ const client = new Discord.Client();
 const token = 'NzMxNDIzMjI1NjQ0NTgwODc0.XxAbKg.2bpQC8nSbZhAgyBJq5OF6sKzRxE';
 usedCommandRecently4 = new Set();
 
-client.on("ready", () => {
-  console.log("GenBot is now online");
-
-  client.user.setPresence({
-    game: { name: `${client.guilds.size} Servers`, type: "STREAMING" }
-  });
-  client.user.setPresence({ game: { name: `${client.guilds.size} Servers`, type: "WATCHING"}});
-  client.user.setActivity("$gen|Generating Accounts!!");
+client.on('ready', () =>{
+  console.log('GenBot is now online')
+  client.user.setPresence({ game: { name: `${client.guilds.size} Servers`, type: "STREAMING"}});
+  client.user.setActivity("$gen|Generating Accounts!!", {
+      type: "STREAMING",
+      url: "https://www.twitch.tv/generatorbotdiscord"
+    });
 });
 
 client.on("message", message => {
