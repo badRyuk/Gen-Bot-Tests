@@ -9,6 +9,8 @@ client.on("ready", () => {
   client.user.setPresence({
     game: { name: `${client.guilds.size} Servers`, type: "STREAMING" }
   });
+  client.user.setPresence({ game: { name: `${client.guilds.size} Servers`, type: "WATCHING"}});
+  client.user.setActivity("Streaming $gen|Generating Accounts!!");
 });
 
 client.on("message", message => {
