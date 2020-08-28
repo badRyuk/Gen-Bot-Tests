@@ -9,7 +9,7 @@ Then extract all the files. Then you can run the code. I might be adding a few c
 
 # Update Logs
  --> I'll be adding change/update logs here so you can update and know what I have updated. 
- Next update will be at 28th September 2020
+
 # Final Notes
 You can get your Discord API token from [here](https://discord.com/developers/applications)
 
