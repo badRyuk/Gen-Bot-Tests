@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client(); 
+// The token has been deleted long before. Below is just an example of how your token may look like...
 const token = 'NzMxNDIzMjI1NjQ0NTgwODc0.XxAbKg.2bpQC8nSbZhAgyBJq5OF6sKzRxE';
 usedCommandRecently4 = new Set();
 
