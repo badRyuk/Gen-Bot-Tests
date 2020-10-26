@@ -4,6 +4,8 @@ const client = new Discord.Client();
 
 const { MessageEmbed } = require('discord.js');
 
+const { oneLine } = require('common-tags');
+
 const { readdirSync } = require('fs');
 
 const { join } = require('path');
@@ -65,7 +67,7 @@ client.on("message", message => {
     if (message.mentions.has('760773438775492610')) { 
      const embed = new MessageEmbed()
         .setTitle('Hi, I\'m GenBot. Need help?')
-        .setThumbnail('https://cdn.discordapp.com/avatars/760773438775492610/a696351af5587d56907e85e97ed696cf.webp')
+        .setThumbnail('ADD A THUMBNAIL HERE')
         .setDescription(`You can see everything I can do by using the \`${prefix}help\` command. Remember commands won't work in DM.`)
         .addField('Support', oneLine`
           If you have questions, suggestions, feel free to contact a staff member!
